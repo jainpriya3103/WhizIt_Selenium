@@ -35,6 +35,7 @@ public class RedirectToHomePageFromOtherPageUsingLogoTest extends BaseClass{
 		//Step 5 Validate for home page
 		String text = hp.getHomePageTitleText();
 		Assert.assertTrue(text.contains(headerText));
+		System.out.println("assserr");
 		
 	}
 }
