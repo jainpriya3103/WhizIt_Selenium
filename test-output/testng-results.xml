@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-14T12:21:27 IST" name="Default suite" finished-at="2023-07-14T12:22:07 IST" duration-ms="40037">
+  <suite started-at="2023-08-07T16:56:38 IST" name="Default suite" finished-at="2023-08-07T16:57:27 IST" duration-ms="49138">
     <groups>
     </groups>
-    <test started-at="2023-07-14T12:21:27 IST" name="Default test" finished-at="2023-07-14T12:22:07 IST" duration-ms="40037">
-      <class name="whizit.TestHomePage.Section2AllTechnologiesImageTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:whizit.TestHomePage.Section2AllTechnologiesImageTest@4c1909a3]" started-at="2023-07-14T12:21:27 IST" name="bsConfig" finished-at="2023-07-14T12:21:27 IST" duration-ms="15" status="PASS">
+    <test started-at="2023-08-07T16:56:38 IST" name="Default test" finished-at="2023-08-07T16:57:27 IST" duration-ms="49138">
+      <class name="whizit.log4jpractice.Log4jPracticeTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:whizit.log4jpractice.Log4jPracticeTest@4310d43]" started-at="2023-08-07T16:56:38 IST" name="bsConfig" finished-at="2023-08-07T16:56:38 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:whizit.TestHomePage.Section2AllTechnologiesImageTest@4c1909a3]" started-at="2023-07-14T12:21:28 IST" name="bcConfig" finished-at="2023-07-14T12:22:05 IST" duration-ms="36789" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:whizit.log4jpractice.Log4jPracticeTest@4310d43]" started-at="2023-08-07T16:56:38 IST" name="bcConfig" finished-at="2023-08-07T16:57:26 IST" duration-ms="48403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method signature="section2AllTechnologiesImageTest()[pri:0, instance:whizit.TestHomePage.Section2AllTechnologiesImageTest@4c1909a3]" started-at="2023-07-14T12:22:05 IST" name="section2AllTechnologiesImageTest" finished-at="2023-07-14T12:22:07 IST" duration-ms="1870" status="PASS">
+        <test-method signature="checkLogoExistOrNotTest()[pri:0, instance:whizit.log4jpractice.Log4jPracticeTest@4310d43]" started-at="2023-08-07T16:57:26 IST" name="checkLogoExistOrNotTest" finished-at="2023-08-07T16:57:26 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- section2AllTechnologiesImageTest -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:whizit.TestHomePage.Section2AllTechnologiesImageTest@4c1909a3]" started-at="2023-07-14T12:22:07 IST" name="acConfig" finished-at="2023-07-14T12:22:07 IST" duration-ms="529" status="PASS">
+        </test-method> <!-- checkLogoExistOrNotTest -->
+        <test-method signature="demo()[pri:0, instance:whizit.log4jpractice.Log4jPracticeTest@4310d43]" started-at="2023-08-07T16:57:26 IST" name="demo" finished-at="2023-08-07T16:57:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:whizit.log4jpractice.Log4jPracticeTest@4310d43]" started-at="2023-08-07T16:57:27 IST" name="acConfig" finished-at="2023-08-07T16:57:27 IST" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:whizit.TestHomePage.Section2AllTechnologiesImageTest@4c1909a3]" started-at="2023-07-14T12:22:08 IST" name="asConfig" finished-at="2023-07-14T12:22:08 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:whizit.log4jpractice.Log4jPracticeTest@4310d43]" started-at="2023-08-07T16:57:27 IST" name="asConfig" finished-at="2023-08-07T16:57:27 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
-      </class> <!-- whizit.TestHomePage.Section2AllTechnologiesImageTest -->
+      </class> <!-- whizit.log4jpractice.Log4jPracticeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,141 @@
+2023-08-07 16:56:41,368 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2023-08-07 16:56:41,427 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2023-08-07 16:56:41,431 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2023-08-07 16:56:41,483 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2023-08-07 16:56:41,489 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://chromedriver.storage.googleapis.com:443
+2023-08-07 16:56:41,545 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to chromedriver.storage.googleapis.com/142.250.182.240:443
+2023-08-07 16:56:41,546 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to chromedriver.storage.googleapis.com/142.250.182.240:443 with timeout 0
+2023-08-07 16:56:41,883 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1.3, TLSv1.2]
+2023-08-07 16:56:41,885 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2023-08-07 16:56:41,887 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2023-08-07 16:56:42,260 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2023-08-07 16:56:42,261 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.3
+2023-08-07 16:56:42,261 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+2023-08-07 16:56:42,278 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=*.storage.googleapis.com
+2023-08-07 16:56:42,279 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [*.storage.googleapis.com, *.googleapis.com, commondatastorage.googleapis.com, *.commondatastorage.googleapis.com, storage.googleapis.com, storage-p2.googleapis.com, *.storage-p2.googleapis.com, storage.mtls.googleapis.com, *.appspot.com.storage.googleapis.com, *.content-storage.googleapis.com, *.content-storage-p2.googleapis.com, *.content-storage-upload.googleapis.com, *.content-storage-download.googleapis.com, *.storage-upload.googleapis.com, *.storage-download.googleapis.com]
+2023-08-07 16:56:42,280 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=GTS CA 1C3, O=Google Trust Services LLC, C=US
+2023-08-07 16:56:42,287 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.13:59662<->142.250.182.240:443
+2023-08-07 16:56:42,290 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2023-08-07 16:56:42,291 DEBUG [main] MainClientExec:256 - Executing request GET /LATEST_RELEASE HTTP/1.1
+2023-08-07 16:56:42,292 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2023-08-07 16:56:42,294 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2023-08-07 16:56:42,298 DEBUG [main] headers:133 - http-outgoing-0 >> GET /LATEST_RELEASE HTTP/1.1
+2023-08-07 16:56:42,299 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+2023-08-07 16:56:42,309 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2023-08-07 16:56:42,310 DEBUG [main] headers:136 - http-outgoing-0 >> Host: chromedriver.storage.googleapis.com
+2023-08-07 16:56:42,311 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2023-08-07 16:56:42,314 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /LATEST_RELEASE HTTP/1.1[\r][\n]"
+2023-08-07 16:56:42,315 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2023-08-07 16:56:42,315 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2023-08-07 16:56:42,316 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: chromedriver.storage.googleapis.com[\r][\n]"
+2023-08-07 16:56:42,317 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2023-08-07 16:56:42,317 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2023-08-07 16:56:42,342 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2023-08-07 16:56:42,344 DEBUG [main] wire:73 - http-outgoing-0 << "X-GUploader-UploadID: ADPycdvFjnI0GzVv3egVBX5tuHUwigkYMfw5tV1_fGJ0_-O0fDDwYBidJKVz35CHOEpkyzSTPdLmGiEehA5ci5dsYE4CYuNkpIYj[\r][\n]"
+2023-08-07 16:56:42,345 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-generation: 1685523462105569[\r][\n]"
+2023-08-07 16:56:42,345 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-metageneration: 1[\r][\n]"
+2023-08-07 16:56:42,346 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-stored-content-encoding: identity[\r][\n]"
+2023-08-07 16:56:42,347 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-stored-content-length: 13[\r][\n]"
+2023-08-07 16:56:42,348 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-hash: crc32c=tVW4TA==[\r][\n]"
+2023-08-07 16:56:42,349 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-hash: md5=NoaEuIlBlniwTkiZ1T16sA==[\r][\n]"
+2023-08-07 16:56:42,349 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-storage-class: STANDARD[\r][\n]"
+2023-08-07 16:56:42,350 DEBUG [main] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2023-08-07 16:56:42,351 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 13[\r][\n]"
+2023-08-07 16:56:42,351 DEBUG [main] wire:73 - http-outgoing-0 << "Server: UploadServer[\r][\n]"
+2023-08-07 16:56:42,352 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Mon, 07 Aug 2023 10:47:31 GMT[\r][\n]"
+2023-08-07 16:56:42,352 DEBUG [main] wire:73 - http-outgoing-0 << "Expires: Mon, 07 Aug 2023 11:47:31 GMT[\r][\n]"
+2023-08-07 16:56:42,353 DEBUG [main] wire:73 - http-outgoing-0 << "Cache-Control: public, max-age=3600[\r][\n]"
+2023-08-07 16:56:42,356 DEBUG [main] wire:73 - http-outgoing-0 << "Age: 2351[\r][\n]"
+2023-08-07 16:56:42,357 DEBUG [main] wire:73 - http-outgoing-0 << "Last-Modified: Wed, 31 May 2023 08:57:42 GMT[\r][\n]"
+2023-08-07 16:56:42,358 DEBUG [main] wire:73 - http-outgoing-0 << "ETag: "368684b889419678b04e4899d53d7ab0"[\r][\n]"
+2023-08-07 16:56:42,359 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+2023-08-07 16:56:42,360 DEBUG [main] wire:73 - http-outgoing-0 << "Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000[\r][\n]"
+2023-08-07 16:56:42,360 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
+2023-08-07 16:56:42,361 DEBUG [main] wire:87 - http-outgoing-0 << "114.0.5735.90"
+2023-08-07 16:56:42,371 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2023-08-07 16:56:42,373 DEBUG [main] headers:125 - http-outgoing-0 << X-GUploader-UploadID: ADPycdvFjnI0GzVv3egVBX5tuHUwigkYMfw5tV1_fGJ0_-O0fDDwYBidJKVz35CHOEpkyzSTPdLmGiEehA5ci5dsYE4CYuNkpIYj
+2023-08-07 16:56:42,374 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-generation: 1685523462105569
+2023-08-07 16:56:42,376 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-metageneration: 1
+2023-08-07 16:56:42,376 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-stored-content-encoding: identity
+2023-08-07 16:56:42,377 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-stored-content-length: 13
+2023-08-07 16:56:42,378 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-hash: crc32c=tVW4TA==
+2023-08-07 16:56:42,378 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-hash: md5=NoaEuIlBlniwTkiZ1T16sA==
+2023-08-07 16:56:42,379 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-storage-class: STANDARD
+2023-08-07 16:56:42,380 DEBUG [main] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2023-08-07 16:56:42,380 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 13
+2023-08-07 16:56:42,381 DEBUG [main] headers:125 - http-outgoing-0 << Server: UploadServer
+2023-08-07 16:56:42,381 DEBUG [main] headers:125 - http-outgoing-0 << Date: Mon, 07 Aug 2023 10:47:31 GMT
+2023-08-07 16:56:42,382 DEBUG [main] headers:125 - http-outgoing-0 << Expires: Mon, 07 Aug 2023 11:47:31 GMT
+2023-08-07 16:56:42,383 DEBUG [main] headers:125 - http-outgoing-0 << Cache-Control: public, max-age=3600
+2023-08-07 16:56:42,383 DEBUG [main] headers:125 - http-outgoing-0 << Age: 2351
+2023-08-07 16:56:42,384 DEBUG [main] headers:125 - http-outgoing-0 << Last-Modified: Wed, 31 May 2023 08:57:42 GMT
+2023-08-07 16:56:42,384 DEBUG [main] headers:125 - http-outgoing-0 << ETag: "368684b889419678b04e4899d53d7ab0"
+2023-08-07 16:56:42,385 DEBUG [main] headers:125 - http-outgoing-0 << Content-Type: text/plain
+2023-08-07 16:56:42,386 DEBUG [main] headers:125 - http-outgoing-0 << Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+2023-08-07 16:56:42,397 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2023-08-07 16:56:42,402 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443] can be kept alive indefinitely
+2023-08-07 16:56:42,407 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2023-08-07 16:56:42,408 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2023-08-07 16:56:43,368 DEBUG [main] InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2023-08-07 16:56:43,380 DEBUG [main] ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2023-08-07 16:56:43,380 DEBUG [main] ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2023-08-07 16:56:43,395 DEBUG [main] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3f3ddbd9
+2023-08-07 16:56:43,513 DEBUG [main] PlatformDependent0:496 - -Dio.netty.noUnsafe: false
+2023-08-07 16:56:43,514 DEBUG [main] PlatformDependent0:1000 - Java version: 17
+2023-08-07 16:56:43,519 DEBUG [main] PlatformDependent0:137 - sun.misc.Unsafe.theUnsafe: available
+2023-08-07 16:56:43,533 DEBUG [main] PlatformDependent0:161 - sun.misc.Unsafe.copyMemory: available
+2023-08-07 16:56:43,539 DEBUG [main] PlatformDependent0:193 - sun.misc.Unsafe.storeFence: available
+2023-08-07 16:56:43,541 DEBUG [main] PlatformDependent0:236 - java.nio.Buffer.address: available
+2023-08-07 16:56:43,544 DEBUG [main] PlatformDependent0:320 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-08-07 16:56:43,546 DEBUG [main] PlatformDependent0:385 - java.nio.Bits.unaligned: available, true
+2023-08-07 16:56:43,551 DEBUG [main] PlatformDependent0:452 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3551a94
+2023-08-07 16:56:43,558 DEBUG [main] PlatformDependent0:482 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-08-07 16:56:43,559 DEBUG [main] PlatformDependent:1159 - sun.misc.Unsafe: available
+2023-08-07 16:56:43,596 DEBUG [main] PlatformDependent:1270 - maxDirectMemory: 2124414976 bytes (maybe)
+2023-08-07 16:56:43,598 DEBUG [main] PlatformDependent:1289 - -Dio.netty.tmpdir: C:\Users\admin\AppData\Local\Temp (java.io.tmpdir)
+2023-08-07 16:56:43,598 DEBUG [main] PlatformDependent:1368 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-08-07 16:56:43,600 DEBUG [main] PlatformDependent:1119 - Platform: Windows
+2023-08-07 16:56:43,604 DEBUG [main] PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2023-08-07 16:56:43,605 DEBUG [main] PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-08-07 16:56:43,608 DEBUG [main] CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2023-08-07 16:56:43,609 DEBUG [main] PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2023-08-07 16:56:43,631 DEBUG [main] PlatformDependent:1010 - org.jctools-core.MpscChunkedArrayQueue: available
+2023-08-07 16:56:43,693 DEBUG [main] InternalThreadLocalMap:100 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-08-07 16:56:43,693 DEBUG [main] InternalThreadLocalMap:101 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-08-07 16:56:43,731 DEBUG [main] JdkSslContext:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2023-08-07 16:56:43,731 DEBUG [main] JdkSslContext:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2023-08-07 16:56:43,777 DEBUG [main] GlobalEventExecutor:53 - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+2023-08-07 16:56:43,868 DEBUG [main] MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 8
+2023-08-07 16:56:43,945 DEBUG [main] NioEventLoop:110 - -Dio.netty.noKeySetOptimization: false
+2023-08-07 16:56:43,946 DEBUG [main] NioEventLoop:111 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2023-08-07 16:56:44,381 DEBUG [main] PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 8
+2023-08-07 16:56:44,382 DEBUG [main] PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 8
+2023-08-07 16:56:44,385 DEBUG [main] PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2023-08-07 16:56:44,385 DEBUG [main] PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2023-08-07 16:56:44,386 DEBUG [main] PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2023-08-07 16:56:44,397 DEBUG [main] PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2023-08-07 16:56:44,400 DEBUG [main] PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2023-08-07 16:56:44,402 DEBUG [main] PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2023-08-07 16:56:44,414 DEBUG [main] PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2023-08-07 16:56:44,416 DEBUG [main] PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2023-08-07 16:56:44,417 DEBUG [main] PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2023-08-07 16:56:44,418 DEBUG [main] PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2023-08-07 16:56:44,531 DEBUG [main] ByteBufUtil:88 - -Dio.netty.allocator.type: pooled
+2023-08-07 16:56:44,531 DEBUG [main] ByteBufUtil:97 - -Dio.netty.threadLocalDirectBufferSize: 0
+2023-08-07 16:56:44,532 DEBUG [main] ByteBufUtil:100 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2023-08-07 16:56:45,718 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:79 - -Dio.netty.processId: 12800 (auto-detected)
+2023-08-07 16:56:45,731 DEBUG [Forwarding newSession on session null to remote] NetUtil:142 - -Djava.net.preferIPv4Stack: false
+2023-08-07 16:56:45,731 DEBUG [Forwarding newSession on session null to remote] NetUtil:143 - -Djava.net.preferIPv6Addresses: false
+2023-08-07 16:56:45,757 DEBUG [Forwarding newSession on session null to remote] NetUtilInitializations:145 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2023-08-07 16:56:45,765 DEBUG [Forwarding newSession on session null to remote] NetUtil:200 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2023-08-07 16:56:45,850 DEBUG [Forwarding newSession on session null to remote] DefaultChannelId:101 - -Dio.netty.machineId: 64:5a:04:ff:fe:8b:63:d0 (auto-detected)
+2023-08-07 16:56:45,957 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2023-08-07 16:56:45,958 DEBUG [AsyncHttpClient-1-2] AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2023-08-07 16:56:45,958 DEBUG [AsyncHttpClient-1-2] ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2ac7be4c
+2023-08-07 16:56:46,035 DEBUG [AsyncHttpClient-1-2] Recycler:96 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2023-08-07 16:56:46,036 DEBUG [AsyncHttpClient-1-2] Recycler:97 - -Dio.netty.recycler.ratio: 8
+2023-08-07 16:56:46,039 DEBUG [AsyncHttpClient-1-2] Recycler:98 - -Dio.netty.recycler.chunkSize: 32
+2023-08-07 16:56:46,040 DEBUG [AsyncHttpClient-1-2] Recycler:99 - -Dio.netty.recycler.blocking: false
+2023-08-07 16:56:46,041 DEBUG [AsyncHttpClient-1-2] Recycler:100 - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+2023-08-07 16:56:48,082 DEBUG [AsyncHttpClient-1-2] Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2023-08-07 16:56:48,366 DEBUG [main] ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x94a3fa272a2c0987

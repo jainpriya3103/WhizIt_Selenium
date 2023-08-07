@@ -3,6 +3,7 @@
  */
 package whizit.TestHomePage;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -23,15 +24,8 @@ public class CheckLogoExistOrNotTest extends BaseClass{
 	//Step 3 Verify the logo exist or not
 	HomePage hp = new HomePage(driver);
 	Boolean logo = hp.checkLogo(driver);
+	Assert.assertTrue(logo, "Logo not present");
 	
-	if (logo) {
-		Reporter.log("Logo exists" ,true);
-        System.out.println("Logo present");
-     } 
-	else {
-    	 Reporter.log("Logo does not exist" ,true);
-        System.out.println("Logo not present");
-     }
 
 }
 }

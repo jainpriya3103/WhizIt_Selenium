@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="whizit.TestHomePage.Section1AllTechnologiesImageTest">
+      <class name="whizit.log4jpractice.Log4jPracticeTest">
         <methods>
-          <include name="section1AllTechnologiesImageTest"/>
           <include name="acConfig"/>
           <include name="bsConfig"/>
           <include name="bcConfig"/>
           <include name="asConfig"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- whizit.TestHomePage.Section1AllTechnologiesImageTest -->
+      </class> <!-- whizit.log4jpractice.Log4jPracticeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
